@@ -1,0 +1,6 @@
+[Core]
+Name = MemeOn
+Module = meme
+
+[Documentation]
+Description = let's say hello !
