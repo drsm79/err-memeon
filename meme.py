@@ -1,4 +1,4 @@
-from errbot import BotPlugin
+from errbot import BotPlugin, botcmd
 from random import choice, randint
 
 
@@ -56,3 +56,7 @@ class MemeOn(BotPlugin):
                     choice(self.memes[meme]),
                     message_type='groupchat'
                 )
+
+    @botcmd
+    def sealion(self, mess, args):
+        return "http://i.imgur.com/bmfwvDl.gif"
