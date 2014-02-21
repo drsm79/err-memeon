@@ -40,10 +40,10 @@ class MemeOn(BotPlugin):
             "http://tearsoftime.com/wp-content/uploads/2012/07/katy-perry-crying.jpg",
         ],
         "dreams": [
-            "http://cdn.shopify.com/s/files/1/0210/4540/products/urban_graphic_cards040_1024x1024.png?v=1392462612"
+            "http://cdn.shopify.com/s/files/1/0210/4540/products/urban_graphic_cards040_1024x1024.png"
         ],
         "lazy": [
-            "http://cdn.shopify.com/s/files/1/0210/4540/products/urban_graphic_cards037_1024x1024.png?v=1392460831"
+            "http://cdn.shopify.com/s/files/1/0210/4540/products/urban_graphic_cards037_1024x1024.png"
         ],
     }
 
