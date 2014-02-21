@@ -45,6 +45,10 @@ class MemeOn(BotPlugin):
         "lazy": [
             "http://cdn.shopify.com/s/files/1/0210/4540/products/urban_graphic_cards037_1024x1024.png"
         ],
+        "kitten":[
+            "http://cdn.sheknows.com/articles/2014/02/Mike/SheKnows_US/1029471/GIF5.gif",
+            "http://www.cutecatgifs.com/wp-content/uploads/2014/02/soon.gif",
+        ],
     }
 
     def callback_message(self, conn, mess):
