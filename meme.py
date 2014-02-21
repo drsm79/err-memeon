@@ -22,6 +22,14 @@ class MemeOn(BotPlugin):
         "yay": [
             "http://www.reactiongifs.com/wp-content/gallery/dance-party/willsmith.gif",
             "http://www.reactiongifs.com/wp-content/uploads/2013/11/stoked.gif"
+        ],
+        "savalas": [
+            "http://upload.wikimedia.org/wikipedia/commons/9/90/Telly_Savalas_Kojak_1973.JPG",
+            "http://images3.makefive.com/images/entertainment/movies/best-james-bond-bad-guys/ernst-stavro-blofeld-as-played-by-telly-savalas-7.jpg",
+            "http://www.biography.com/imported/images/Biography/Images/Profiles/S/Telly-Savalas-9542523-1-402.jpg",
+            "http://image1.findagrave.com/photos/2010/323/1832_129030321490.jpg",
+            "http://img.kimdir.com/kimdir/t/e/5b16633ed7c0fb9a2fa50607696dfdd9e0eeaecb.jpg",
+            "http://www.recordsale.de/cdpix/t/telly_savalas-sweet_surprise(1).jpg"
         ]
     }
 
