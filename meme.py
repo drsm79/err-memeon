@@ -20,6 +20,8 @@ class MemeOn(BotPlugin):
             "http://www.biography.com/imported/images/Biography/Images/Profiles/S/Telly-Savalas-9542523-1-402.jpg"
         ],
         "yay": [
+            "http://31.media.tumblr.com/0e9d3c5353afe255aab03101db5bc24c/tumblr_mjzn9l8cQ31r6ph6uo1_500.gif",
+            "http://25.media.tumblr.com/tumblr_mdm2kdZZVz1rxdkjwo1_500.gif",
             "http://www.reactiongifs.com/wp-content/gallery/dance-party/willsmith.gif",
             "http://www.reactiongifs.com/wp-content/uploads/2013/11/stoked.gif"
         ],
@@ -30,7 +32,19 @@ class MemeOn(BotPlugin):
             "http://image1.findagrave.com/photos/2010/323/1832_129030321490.jpg",
             "http://img.kimdir.com/kimdir/t/e/5b16633ed7c0fb9a2fa50607696dfdd9e0eeaecb.jpg",
             "http://www.recordsale.de/cdpix/t/telly_savalas-sweet_surprise(1).jpg"
-        ]
+        ],
+        "sad": [
+            "http://www.mykindarain.com/wp-content/uploads/2011/10/no-one-likes-sad-panda-no-one-likes-sad-panda.jpg",
+            "http://mashable.com/wp-content/uploads/2013/07/Dr.-Who.gif",
+            "http://lookrobot.co.uk/files/2013/06/SadCat.jpg",
+            "http://tearsoftime.com/wp-content/uploads/2012/07/katy-perry-crying.jpg",
+        ],
+        "dreams": [
+            "http://cdn.shopify.com/s/files/1/0210/4540/products/urban_graphic_cards040_1024x1024.png?v=1392462612"
+        ],
+        "lazy": [
+            "http://cdn.shopify.com/s/files/1/0210/4540/products/urban_graphic_cards037_1024x1024.png?v=1392460831"
+        ],
     }
 
     def callback_message(self, conn, mess):
