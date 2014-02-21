@@ -53,7 +53,15 @@ class MemeOn(BotPlugin):
 
     def callback_message(self, conn, mess):
         body = mess.getBody().lower()
+
         for meme in self.memes:
+            if body.startswith(meme.replace(' ', '')):
+                self.send(
+                    mess.getFrom(),
+                    choice(self.memes[meme]),
+                    message_type='groupchat'
+                )
+                break
             if body.find(meme) != -1 and randint(1, 10) <= len(self.memes[meme]):
                 self.send(
                     mess.getFrom(),
