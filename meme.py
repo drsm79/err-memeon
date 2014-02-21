@@ -15,6 +15,13 @@ class MemeOn(BotPlugin):
             "http://4.bp.blogspot.com/-w2dZIP16sew/TpE1L7g8IbI/AAAAAAAAAKA/kshUsHepP00/s1600/free-MrBurnsExcellent.gif",
             "http://www.scancrit.com/wp-content/uploads/2011/11/excellent-4689_preview.png",
             "http://static.rcgroups.net/forums/attachments/1/6/9/8/4/9/a2213358-88-mister-burns-excellent.jpg"
+        ],
+        "my kind of": [
+            "http://www.biography.com/imported/images/Biography/Images/Profiles/S/Telly-Savalas-9542523-1-402.jpg"
+        ],
+        "yay": [
+            "http://www.reactiongifs.com/wp-content/gallery/dance-party/willsmith.gif",
+            "http://www.reactiongifs.com/wp-content/uploads/2013/11/stoked.gif"
         ]
     }
 
