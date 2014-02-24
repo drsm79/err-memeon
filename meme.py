@@ -72,3 +72,7 @@ class MemeOn(BotPlugin):
     @botcmd
     def sealion(self, mess, args):
         return "http://i.imgur.com/bmfwvDl.gif"
+
+    @botcmd
+    def polarpalm(self, mess, args):
+        return "http://www.reactionface.info/sites/default/files/images/1310561236052.jpg"
