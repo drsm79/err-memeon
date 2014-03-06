@@ -62,7 +62,14 @@ class MemeOn(BotPlugin):
             "http://static.tvtropes.org/pmwiki/pub/images/bruce-springsteen.jpg",
             "http://imgur.com/93k3zBe",
             "http://marshallmatlock.com/wp-content/uploads/2011/05/bruce-springsteen-banner.jpg",
-        ]
+        ],
+        "heard": [
+            "http://imgur.com/WNf5vJj.jpg",
+            "http://www.eabf.org.uk/upload/news/dame-thora-hird.jpg",
+            "http://bonfirehealth.com/wp-content/uploads/2011/09/herd.1.gif",
+            "http://upload.wikimedia.org/wikipedia/commons/5/5a/Wilderbeest.jpg",
+            "http://upload.wikimedia.org/wikipedia/commons/a/a9/Herd_Of_Goats.jpg"
+        ],
     }
 
     def callback_message(self, conn, mess):
