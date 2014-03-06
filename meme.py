@@ -62,7 +62,7 @@ class MemeOn(BotPlugin):
             "http://static.tvtropes.org/pmwiki/pub/images/bruce-springsteen.jpg",
             "http://doyouremember.com/wp-content/uploads/2013/06/Bruce-Springsteen-in-1984.jpg",
             "http://marshallmatlock.com/wp-content/uploads/2011/05/bruce-springsteen-banner.jpg",
-        ].
+        ]
     }
 
     def callback_message(self, conn, mess):
