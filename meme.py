@@ -49,6 +49,20 @@ class MemeOn(BotPlugin):
             "http://cdn.sheknows.com/articles/2014/02/Mike/SheKnows_US/1029471/GIF5.gif",
             "http://www.cutecatgifs.com/wp-content/uploads/2014/02/soon.gif",
         ],
+        "like a boss": [
+            "http://upload.wikimedia.org/wikipedia/commons/4/4d/Bruce_Springsteen_1988.jpg",
+            "http://upload.wikimedia.org/wikipedia/commons/3/3b/Bruce_Springsteen_-_Roskilde_Festival_2012.jpg",
+            "http://i.telegraph.co.uk/multimedia/archive/02604/Bruce_Springsteen_2604860k.jpg",
+            "http://cdn.riffraf.net/wp-content/uploads/2014/01/brucespringsteen.jpg",
+            "http://audiophileparadise.files.wordpress.com/2012/07/bruce-springsteen-002.jpg",
+            "http://www.peterguy.merseyblogs.co.uk/bruce-springsteen.jpg",
+            "http://www.legacyrecordings.com/media/cache/86/26/86268187fb270d1f4af374b3ef28d53b.jpg",
+            "http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2009/5/25/1243248389162/Bruce-Springsteen-And-The-003.jpg",
+            "http://the-flack.com/wp-content/uploads/2014/02/Bruce-Springsteen-1.jpg",
+            "http://static.tvtropes.org/pmwiki/pub/images/bruce-springsteen.jpg",
+            "http://doyouremember.com/wp-content/uploads/2013/06/Bruce-Springsteen-in-1984.jpg",
+            "http://marshallmatlock.com/wp-content/uploads/2011/05/bruce-springsteen-banner.jpg",
+        ].
     }
 
     def callback_message(self, conn, mess):
