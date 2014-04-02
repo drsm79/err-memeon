@@ -75,7 +75,8 @@ class MemeOn(BotPlugin):
             "http://www.grammy.com/files/styles/news_photos/public/news/haddaway3.jpg",
             "http://www.becomethesinger.com/wp-content/uploads/2012/11/Haddaway-what-is-love-lyrics-300x197.jpg",
             "http://pixhost.me/avaxhome/2007-06-04/BitmapI79.jpg",
-            "http://cdn.7static.com/static/img/sleeveart/00/031/227/0003122749_500.jpg"
+            "http://cdn.7static.com/static/img/sleeveart/00/031/227/0003122749_500.jpg",
+            "http://www.blackgate.com/wp-content/uploads/2013/09/image4full.jpg"
         ]
     }
 
