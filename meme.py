@@ -70,6 +70,9 @@ class MemeOn(BotPlugin):
             "http://upload.wikimedia.org/wikipedia/commons/5/5a/Wilderbeest.jpg",
             "http://upload.wikimedia.org/wikipedia/commons/a/a9/Herd_Of_Goats.jpg"
         ],
+        "love": [
+            "https://www.youtube.com/watch?v=xhrBDcQq2DM"
+        ]
     }
 
     def callback_message(self, conn, mess):
