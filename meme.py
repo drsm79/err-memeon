@@ -71,7 +71,11 @@ class MemeOn(BotPlugin):
             "http://upload.wikimedia.org/wikipedia/commons/a/a9/Herd_Of_Goats.jpg"
         ],
         "love": [
-            "https://www.youtube.com/watch?v=xhrBDcQq2DM"
+            "https://www.youtube.com/watch?v=xhrBDcQq2DM",
+            "http://www.grammy.com/files/styles/news_photos/public/news/haddaway3.jpg",
+            "http://www.becomethesinger.com/wp-content/uploads/2012/11/Haddaway-what-is-love-lyrics-300x197.jpg",
+            "http://pixhost.me/avaxhome/2007-06-04/BitmapI79.jpg",
+            "http://cdn.7static.com/static/img/sleeveart/00/031/227/0003122749_500.jpg"
         ]
     }
 
