@@ -9,6 +9,9 @@ class MemeOn(BotPlugin):
             "http://media.tumblr.com/tumblr_m56cfsr9Mz1qzfgf0.gif",
             "http://stream1.gifsoup.com/view4/1396666/push-it-real-good-o.gif",
         ],
+        "ship it":[
+            "http://i.imgur.com/fL6eNiK.jpg",
+        ],
         "oh my": [
             "http://925rebellion.com/wp-content/uploads/2013/09/3q7rym.jpg",
             "http://media1.giphy.com/media/FoUHKTJhoQU6I/200_s.gif",
