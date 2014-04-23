@@ -112,3 +112,12 @@ class MemeOn(BotPlugin):
     @botcmd
     def polarpalm(self, mess, args):
         return "http://www.reactionface.info/sites/default/files/images/1310561236052.jpg"
+
+    @botcmd
+    def catcloud(self, mess, args):
+        return "http://i.imgur.com/11lqTad.jpg"
+
+    @botcmd
+    def shipit(self, mess, args):
+        return "http://i.imgur.com/fL6eNiK.jpg"
+        
