@@ -11,6 +11,9 @@ class MemeOn(BotPlugin):
         ],
         "ship it":[
             "http://i.imgur.com/fL6eNiK.jpg",
+            "http://c3270052.r52.cf0.rackcdn.com/westerdam-ship-size.jpg",
+            "http://welovelocalgovernment.files.wordpress.com/2011/01/ship.jpg",
+            "http://media-cdn.tripadvisor.com/media/photo-s/01/57/fd/70/brunel-s-ss-great-britain.jpg",
         ],
         "oh my": [
             "http://925rebellion.com/wp-content/uploads/2013/09/3q7rym.jpg",
