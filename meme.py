@@ -41,7 +41,8 @@ class MemeOn(BotPlugin):
             "http://www.biography.com/imported/images/Biography/Images/Profiles/S/Telly-Savalas-9542523-1-402.jpg",
             "http://image1.findagrave.com/photos/2010/323/1832_129030321490.jpg",
             "http://img.kimdir.com/kimdir/t/e/5b16633ed7c0fb9a2fa50607696dfdd9e0eeaecb.jpg",
-            "http://www.recordsale.de/cdpix/t/telly_savalas-sweet_surprise(1).jpg"
+            "http://www.recordsale.de/cdpix/t/telly_savalas-sweet_surprise(1).jpg",
+            "http://content9.flixster.com/photo/40/08/13/4008139_ori.jpg"
         ],
         "sad": [
             "http://www.mykindarain.com/wp-content/uploads/2011/10/no-one-likes-sad-panda-no-one-likes-sad-panda.jpg",
