@@ -14,6 +14,7 @@ class MemeOn(BotPlugin):
             "http://www.bradycarlson.com/wp-content/uploads/2012/12/ateamrecipeforheavybread032010-06.jpg",
             "http://images6.fanpop.com/image/photos/35300000/Hannibal-Smith-the-a-team-35362783-200-200.png",
             "http://www.beingabusinesscelebrity.com/wp-content/uploads/2011/10/i-love-it-when-a-plan-comes-together-the-original-a-team.jpg",
+        ],
         "ship it":[
             "http://i.imgur.com/fL6eNiK.jpg",
             "http://c3270052.r52.cf0.rackcdn.com/westerdam-ship-size.jpg",
