@@ -62,9 +62,14 @@ class MemeOn(BotPlugin):
         "lazy": [
             "http://cdn.shopify.com/s/files/1/0210/4540/products/urban_graphic_cards037_1024x1024.png"
         ],
-        "kitten":[
+        "kitten": [
+            "http://www.cutecatgifs.com/wp-content/uploads/2014/07/giphy1.gif",
+            "http://media.tumblr.com/4039ce2501bafa4fffcd97e8454e5617/tumblr_n9bsp9dgDj1s2yegdo1_500.gif",
+            "http://media.tumblr.com/7ac5b27ca5e976b00d40e7d99e00b60b/tumblr_mzqi4q081y1qdlh1io1_400.gif",
+            "http://img.gawkerassets.com/img/19gdql5jauwbkgif/ku-medium.gif",
+            "http://media.tumblr.com/43dd30c13a5a98d9c7ff713791325f12/tumblr_myv33t6lcl1s43wfjo1_400.gif",
             "http://cdn.sheknows.com/articles/2014/02/Mike/SheKnows_US/1029471/GIF5.gif",
-            "http://www.cutecatgifs.com/wp-content/uploads/2014/02/soon.gif",
+            "http://www.cutecatgifs.com/wp-content/uploads/2014/02/soon.gif"
         ],
         "like a boss": [
             "http://upload.wikimedia.org/wikipedia/commons/4/4d/Bruce_Springsteen_1988.jpg",
