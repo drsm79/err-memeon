@@ -1,5 +1,7 @@
 from errbot import BotPlugin, botcmd
 from random import choice, randint
+import requests
+from lxml import html
 
 
 class MemeOn(BotPlugin):
@@ -102,8 +104,40 @@ class MemeOn(BotPlugin):
         ]
     }
 
+    gifs = ['abandon thread', 'amused', 'bfd', 'birthday', 'bitch please', 'booty had me like', 'bored',
+            'confused', 'cry', 'crying', 'dance', 'dat ass', 'deal with it', 'derp', 'disappointed',
+            'disgusted', 'do not want', 'do want', 'drunk', 'eww', 'excited', 'eye roll', 'facepalm',
+            'fail', 'flip the bird', 'flirt', 'funny', 'good job', 'gtfo', 'high five', 'hug', 'idk',
+            'i give up', 'incredulous', 'interesting', 'judging you', 'laughing', 'lewd', 'lol', 'love',
+            'mad', 'meh', 'no', 'nod', 'nomming', 'not bad', 'omg', 'o rly', 'party hard', 'pleased',
+            'popcorn', 'rad', 'rage', 'rejected', 'sad', 'sarcastic', 'say what', 'scared', 'serious',
+            'sexy', 'shut up', 'sleepy', 'smh', 'sorry', 'stoned', 'success', 'suspicious', 'thank you',
+            'what', 'thumbs up', 'who cares', 'wtf', 'yes', 'you don\'t say', 'you tried', 'yuck']
+
+
+    def get_gif_for_tag(tag):
+        tag = tag.replace(' ','-').replace('\'','')
+        r = requests.get("http://www.reactiongifs.com/tag/" + tag)
+        tree = html.fromstring(r.text)
+        return tree.xpath('//p/a/img/@src')
+
     def callback_message(self, conn, mess):
         body = mess.getBody().lower()
+
+        for keyword in self.gifs:
+            if body.startswith(keyword):
+                self.send(
+                    mess.getFrom(),
+                    choice(get_gif_for_tag(keyword)),
+                    message_type='groupchat'
+                )
+                break
+            if body.find(keyword) != -1 and randint(1, 10) <= len(self.gifs[keyword]):
+                self.send(
+                    mess.getFrom(),
+                    choice(get_gif_for_tag(keyword)),
+                    message_type='groupchat'
+                )
 
         for meme in self.memes:
             if body.startswith(meme.replace(' ', '')):
