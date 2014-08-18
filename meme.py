@@ -115,7 +115,7 @@ class MemeOn(BotPlugin):
             'what', 'thumbs up', 'who cares', 'wtf', 'yes', 'you don\'t say', 'you tried', 'yuck']
 
 
-    def get_gif_for_tag(tag):
+    def get_gif_for_tag(self, tag):
         tag = tag.replace(' ','-').replace('\'','')
         r = requests.get("http://www.reactiongifs.com/tag/" + tag)
         tree = html.fromstring(r.text)
