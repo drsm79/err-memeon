@@ -1,5 +1,5 @@
 from errbot import BotPlugin, botcmd
-from random import choice, randint
+from random import choice, randint, getrandbits
 import requests
 from lxml import html
 
@@ -124,35 +124,36 @@ class MemeOn(BotPlugin):
     def callback_message(self, conn, mess):
         body = mess.getBody().lower()
 
-        for keyword in self.gifs:
-            if body.startswith(keyword):
-                self.send(
-                    mess.getFrom(),
-                    choice(get_gif_for_tag(keyword)),
-                    message_type='groupchat'
-                )
-                break
-            if body.find(keyword) != -1 and randint(1, 10) <= len(self.gifs[keyword]):
-                self.send(
-                    mess.getFrom(),
-                    choice(get_gif_for_tag(keyword)),
-                    message_type='groupchat'
-                )
-
-        for meme in self.memes:
-            if body.startswith(meme.replace(' ', '')):
-                self.send(
-                    mess.getFrom(),
-                    choice(self.memes[meme]),
-                    message_type='groupchat'
-                )
-                break
-            if body.find(meme) != -1 and randint(1, 10) <= len(self.memes[meme]):
-                self.send(
-                    mess.getFrom(),
-                    choice(self.memes[meme]),
-                    message_type='groupchat'
-                )
+        if (getrandbits(1) == 1):
+            for keyword in self.gifs:
+                if body.startswith(keyword):
+                    self.send(
+                        mess.getFrom(),
+                        choice(get_gif_for_tag(keyword)),
+                        message_type='groupchat'
+                    )
+                    break
+                if body.find(keyword) != -1 and randint(1, 10) <= len(self.gifs[keyword]):
+                    self.send(
+                        mess.getFrom(),
+                        choice(get_gif_for_tag(keyword)),
+                        message_type='groupchat'
+                    )
+        else:
+            for meme in self.memes:
+                if body.startswith(meme.replace(' ', '')):
+                    self.send(
+                        mess.getFrom(),
+                        choice(self.memes[meme]),
+                        message_type='groupchat'
+                    )
+                    break
+                if body.find(meme) != -1 and randint(1, 10) <= len(self.memes[meme]):
+                    self.send(
+                        mess.getFrom(),
+                        choice(self.memes[meme]),
+                        message_type='groupchat'
+                    )
 
     @botcmd
     def sealion(self, mess, args):
