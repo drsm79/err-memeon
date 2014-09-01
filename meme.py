@@ -126,17 +126,10 @@ class MemeOn(BotPlugin):
 
         if (getrandbits(1) == 1):
             for keyword in self.gifs:
-                if body.startswith(keyword):
+                if body.find(keyword) != -1:
                     self.send(
                         mess.getFrom(),
-                        choice(get_gif_for_tag(keyword)),
-                        message_type='groupchat'
-                    )
-                    break
-                if body.find(keyword) != -1 and randint(1, 10) <= len(self.gifs[keyword]):
-                    self.send(
-                        mess.getFrom(),
-                        choice(get_gif_for_tag(keyword)),
+                        choice(self.get_gif_for_tag(keyword)),
                         message_type='groupchat'
                     )
         else:
