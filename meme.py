@@ -104,15 +104,14 @@ class MemeOn(BotPlugin):
         ]
     }
 
-    gifs = ['abandon thread', 'amused', 'bfd', 'birthday', 'bitch please', 'booty had me like', 'bored',
-            'confused', 'cry', 'crying', 'dance', 'dat ass', 'deal with it', 'derp', 'disappointed',
-            'disgusted', 'do not want', 'do want', 'drunk', 'eww', 'excited', 'eye roll', 'facepalm',
-            'fail', 'flip the bird', 'flirt', 'funny', 'good job', 'gtfo', 'high five', 'hug', 'idk',
-            'i give up', 'incredulous', 'interesting', 'judging you', 'laughing', 'lewd', 'lol', 'love',
-            'mad', 'meh', 'no', 'nod', 'nomming', 'not bad', 'omg', 'o rly', 'party hard', 'pleased',
-            'popcorn', 'rad', 'rage', 'rejected', 'sad', 'sarcastic', 'say what', 'scared', 'serious',
-            'sexy', 'shut up', 'sleepy', 'smh', 'sorry', 'stoned', 'success', 'suspicious', 'thank you',
-            'what', 'thumbs up', 'who cares', 'wtf', 'yes', 'you don\'t say', 'you tried', 'yuck']
+    gifs = ['abandon thread', 'amused', 'birthday', 'bored', 'confused', 'cry', 'crying', 'dance', 
+            'deal with it', 'derp', 'disappointed', 'disgusted', 'do not want', 'do want', 'excited', 
+            'eye roll', 'facepalm', 'fail',  'funny', 'good job', 'high five', 'hug', 'idk', 
+            'i give up', 'incredulous', 'interesting', 'judging you', 'laughing', 'lol', 'love', 'mad', 
+            'meh', 'no', 'nod', 'nomming', 'not bad', 'omg', 'o rly', 'party hard', 'pleased', 'popcorn', 
+            'rad', 'rage', 'rejected', 'sad', 'sarcastic', 'say what', 'scared', 'serious', 'shut up', 
+            'sleepy', 'sorry', 'success', 'suspicious', 'thank you', 'what', 'thumbs up', 'who cares', 
+            'wtf', 'yes', 'you don\'t say', 'you tried']
 
 
     def get_gif_for_tag(self, tag):
