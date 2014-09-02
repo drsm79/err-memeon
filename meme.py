@@ -123,7 +123,7 @@ class MemeOn(BotPlugin):
     def callback_message(self, conn, mess):
         body = mess.getBody().lower()
 
-        if (getrandbits(1) == 1):
+        if (getrandbits(3) == 1):
             for keyword in self.gifs:
                 if body.find(keyword) != -1:
                     self.send(
