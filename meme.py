@@ -131,6 +131,7 @@ class MemeOn(BotPlugin):
                         choice(self.get_gif_for_tag(keyword)),
                         message_type='groupchat'
                     )
+                    return
         else:
             for meme in self.memes:
                 if body.startswith(meme.replace(' ', '')):
