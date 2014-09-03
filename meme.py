@@ -7,6 +7,9 @@ from lxml import html
 class MemeOn(BotPlugin):
 
     memes = {
+        "reason":[
+            "http://static.bips.channel4.com/bips/520x390/noel-fieldings-luxury-comedy/characters/82de29d9-2f49-4682-8ee2-f735c3183a3f.jpg"
+        ],
         "push it": [
             "http://media.tumblr.com/tumblr_m56cfsr9Mz1qzfgf0.gif",
             "http://stream1.gifsoup.com/view4/1396666/push-it-real-good-o.gif",
@@ -162,3 +165,11 @@ class MemeOn(BotPlugin):
     def shipit(self, mess, args):
         return "http://i.imgur.com/fL6eNiK.jpg"
         
+    @botcmd
+    def basso(self, mess, args):
+        panfer = [
+            "http://38.media.tumblr.com/2a2eacbd9c5128f423a70e45ef124a2e/tumblr_n9hd3lE80S1qfqs3do2_500.gif",
+            "http://static.bips.channel4.com/bips/520x390/noel-fieldings-luxury-comedy/characters/b3dc73e5-892c-4f9d-bb02-e7067ae67f47.jpg",
+            "http://boards.420chan.org/mtv/src/1407464476367.gif"
+        ]
+        return choice(panfer)
