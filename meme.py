@@ -128,12 +128,8 @@ class MemeOn(BotPlugin):
                 if body.startswith(keyword + " ") or \
                 body.endswith(" " + keyword) or \
                 (" " + keyword + " ") in body:
-                    self.send(
-                        mess.getFrom(),
-                        choice(self.get_gif_for_tag(keyword)),
-                        message_type='groupchat'
-                    )
-                    return
+                    return choice(self.get_gif_for_tag(keyword))
+
         else:
             for meme in self.memes:
                 if body.startswith(meme.replace(' ', '')):
