@@ -173,6 +173,17 @@ class MemeOn(BotPlugin):
     @botcmd
     def shipit(self, mess, args):
         return "http://i.imgur.com/fL6eNiK.jpg"
+    
+    def chuck_norris(self):
+        return requests.get("http://api.icndb.com/jokes/random").json()['value']['joke']
+        
+    @botcmd
+    def chuck(self, mess, args):
+        return self.chuck_norris()
+    
+    @botcmd
+    def norris(self, mess, args):
+        return self.chuck_norris()
         
     @botcmd
     def basso(self, mess, args):
