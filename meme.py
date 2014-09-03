@@ -195,6 +195,10 @@ class MemeOn(BotPlugin):
         return self.chuck_norris()
         
     @botcmd
+    def cage(self, mess, args):
+        return choice(self.memes['cage'])
+        
+    @botcmd
     def basso(self, mess, args):
         panfer = [
             "http://38.media.tumblr.com/2a2eacbd9c5128f423a70e45ef124a2e/tumblr_n9hd3lE80S1qfqs3do2_500.gif",
