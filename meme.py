@@ -8,6 +8,14 @@ class MemeOn(BotPlugin):
 
     memes = {
         "cage": [
+            "http://img.izismile.com/img/img4/20110718/1000/that_crazy_nicholas_cage_02.gif",
+            "http://media2.giphy.com/media/642o0uCyKFMPe/200_s.gif",
+            "http://i.imgur.com/wSSULuB.gif",
+            "http://www.esquire.com/cm/esquire/images/iu/esq-cage-xlg.jpg",
+            "http://38.media.tumblr.com/e699f86ad0d8c4c839a3ab8f4da0023a/tumblr_mf1vh2KyL81r4etbjo1_500.gif",
+            "https://www.wow247.co.uk/wp-content/uploads/2014/06/Face-Off-gif-1.gif",
+            "http://img.izismile.com/img/img4/20110718/1000/that_crazy_nicholas_cage_06.gif",
+            "http://i.minus.com/iseKAgDLLLLsQ.gif",
             "http://38.media.tumblr.com/tumblr_m32pr52hIU1rrbb7uo1_250.gif",
             "http://media.tumblr.com/tumblr_ly0risWleD1qjod0b.jpg",
             "http://33.media.tumblr.com/tumblr_me4mxy2ssl1rozti5o1_400.gif",
