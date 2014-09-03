@@ -8,6 +8,7 @@ class MemeOn(BotPlugin):
 
     memes = {
         "cage": [
+            "http://38.media.tumblr.com/tumblr_m32pr52hIU1rrbb7uo1_250.gif",
             "http://media.tumblr.com/tumblr_ly0risWleD1qjod0b.jpg",
             "http://33.media.tumblr.com/tumblr_me4mxy2ssl1rozti5o1_400.gif",
             "http://heavyeditorial.files.wordpress.com/2012/12/crycage.gif",
