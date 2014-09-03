@@ -125,12 +125,11 @@ class MemeOn(BotPlugin):
 
         if (getrandbits(3) == 1):
             for keyword in self.gifs:
-                if body.find(keyword) != -1:
-                    self.send(
-                        mess.getFrom(),
-                        choice(self.get_gif_for_tag(keyword)),
-                        message_type='groupchat'
-                    )
+                if body.startswith(keyword + " ") or \
+                body.endswith(" " + keyword) or \
+                (" " + keyword + " ") in body:
+                    return choice(self.get_gif_for_tag(keyword))
+
         else:
             for meme in self.memes:
                 if body.startswith(meme.replace(' ', '')):
