@@ -7,7 +7,16 @@ from lxml import html
 class MemeOn(BotPlugin):
 
     memes = {
-        "reason":[
+        "cage": [
+            "http://media.tumblr.com/tumblr_ly0risWleD1qjod0b.jpg",
+            "http://33.media.tumblr.com/tumblr_me4mxy2ssl1rozti5o1_400.gif",
+            "http://heavyeditorial.files.wordpress.com/2012/12/crycage.gif",
+            "http://media.tumblr.com/tumblr_lo22s0NGhU1qzxr43.gif",
+            "http://i.minus.com/idXROKk76N0jM.gif",
+            "http://im.ezgif.com/tmp/gif_300x169_1e5bc1.gif",
+            "http://33.media.tumblr.com/tumblr_mb4ueqFOXr1rozti5o1_500.gif"
+        ],
+        "reason": [
             "http://static.bips.channel4.com/bips/520x390/noel-fieldings-luxury-comedy/characters/82de29d9-2f49-4682-8ee2-f735c3183a3f.jpg"
         ],
         "push it": [
