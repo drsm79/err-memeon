@@ -125,7 +125,9 @@ class MemeOn(BotPlugin):
 
         if (getrandbits(3) == 1):
             for keyword in self.gifs:
-                if body.find(keyword) != -1:
+                if body.startswith(keyword + " ") or \
+                body.endswith(" " + keyword) or \
+                (" " + keyword + " ") in body:
                     self.send(
                         mess.getFrom(),
                         choice(self.get_gif_for_tag(keyword)),
