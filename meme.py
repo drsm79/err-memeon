@@ -91,6 +91,7 @@ class MemeOn(BotPlugin):
             "http://i.imgur.com/iKHhx1q.gif",
             "http://i.imgur.com/EAheTq8.gif",
             "http://i.imgur.com/4P9RET6.gif",
+            "http://i.imgur.com/pVoj4tD.gif",
             "http://cdn.sheknows.com/articles/2014/02/Mike/SheKnows_US/1029471/GIF5.gif",
             "http://www.cutecatgifs.com/wp-content/uploads/2014/02/soon.gif",
             "http://f.cl.ly/items/403c411k0Z1n0j0O052c/raveCats.gif",
