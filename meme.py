@@ -25,6 +25,7 @@ class MemeOn(BotPlugin):
             "http://im.ezgif.com/tmp/gif_300x169_1e5bc1.gif",
             "http://33.media.tumblr.com/tumblr_mb4ueqFOXr1rozti5o1_500.gif"
         ],
+        "business": ["http://www.trueventurestec.com/wp-content/uploads/2013/07/haha-business.jpg"],
         "reason": [
             "http://static.bips.channel4.com/bips/520x390/noel-fieldings-luxury-comedy/characters/82de29d9-2f49-4682-8ee2-f735c3183a3f.jpg"
         ],
