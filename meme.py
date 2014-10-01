@@ -128,6 +128,9 @@ class MemeOn(BotPlugin):
             "http://www.becomethesinger.com/wp-content/uploads/2012/11/Haddaway-what-is-love-lyrics-300x197.jpg",
             "http://cdn.7static.com/static/img/sleeveart/00/031/227/0003122749_500.jpg",
             "http://www.blackgate.com/wp-content/uploads/2013/09/image4full.jpg"
+        ],
+        "westwood": [
+            "http://i.imgur.com/DRpPQQX.jpg",
         ]
     }
 
