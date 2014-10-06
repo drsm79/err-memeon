@@ -131,7 +131,11 @@ class MemeOn(BotPlugin):
         ],
         "westwood": [
             "http://i.imgur.com/DRpPQQX.jpg",
-        ]
+        ],
+        "awesome": [
+            "http://i.imgur.com/88t6I5J.jpg",
+            "http://i.imgur.com/ABsI4b2.jpg",
+        ],
     }
 
     gifs = ['abandon thread', 'amused', 'birthday', 'bored', 'confused', 'cry', 'crying', 'dance', 
