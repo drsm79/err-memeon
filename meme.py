@@ -136,6 +136,9 @@ class MemeOn(BotPlugin):
             "http://i.imgur.com/88t6I5J.jpg",
             "http://i.imgur.com/ABsI4b2.jpg",
         ],
+        "doubt": [
+            "http://i.imgur.com/EUW0kIY.jpg",
+        ],
     }
 
     gifs = ['abandon thread', 'amused', 'birthday', 'bored', 'confused', 'cry', 'crying', 'dance', 
