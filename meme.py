@@ -7,6 +7,9 @@ from lxml import html
 class MemeOn(BotPlugin):
 
     memes = {
+        "local": [
+            "http://31.media.tumblr.com/55e743a6c14ecf989ac7a8f744e58582/tumblr_n3kfmpZxcG1srkiv2o1_400.gif",
+        ],
         "cage": [
             "http://img.izismile.com/img/img4/20110718/1000/that_crazy_nicholas_cage_02.gif",
             "http://media2.giphy.com/media/642o0uCyKFMPe/200_s.gif",
