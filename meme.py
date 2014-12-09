@@ -233,3 +233,7 @@ class MemeOn(BotPlugin):
             "http://boards.420chan.org/mtv/src/1407464476367.gif"
         ]
         return choice(panfer)
+        
+    @botcmd
+    def manatee(self, mess, args):
+        return "http://calmingmanatee.com/img/manatee%s.jpg" % randint(1,30)
