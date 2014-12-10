@@ -145,6 +145,13 @@ class MemeOn(BotPlugin):
         "doubt": [
             "http://i.imgur.com/EUW0kIY.jpg",
         ],
+        "stressed": [
+            "http://calmingmanatee.com/img/manatee13.jpg",
+            "http://calmingmanatee.com/img/manatee17.jpg",
+            "http://calmingmanatee.com/img/manatee24.jpg",
+            "http://calmingmanatee.com/img/manatee25.jpg",
+            "http://calmingmanatee.com/img/manatee8.jpg"
+        ],
     }
 
     gifs = ['abandon thread', 'amused', 'birthday', 'bored', 'confused', 'cry', 'crying', 'dance', 
