@@ -34,6 +34,7 @@ class MemeOn(BotPlugin):
         "business": [
             "http://www.trueventurestec.com/wp-content/uploads/2013/07/haha-business.jpg",
             "http://www.picasaurus.com/wp-content/main/2012_01/Im_Late_For_Business.jpg",
+            "http://i.imgur.com/8OcrCyn.gif"
         ],
         "reason": [
             "http://static.bips.channel4.com/bips/520x390/noel-fieldings-luxury-comedy/characters/82de29d9-2f49-4682-8ee2-f735c3183a3f.jpg"
