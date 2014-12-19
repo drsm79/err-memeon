@@ -7,9 +7,6 @@ from lxml import html
 class MemeOn(BotPlugin):
 
     memes = {
-        "doubt": [
-            "http://i.imgur.com/FS58osf.jpg",
-        ],
         "devops": [
             "http://1.bp.blogspot.com/_eGXMMWsE_7Y/SwJ1icDrkzI/AAAAAAAAATU/MO_NccQyQS0/s1600/samiad1.gif"
         ],
@@ -147,6 +144,7 @@ class MemeOn(BotPlugin):
             "http://i.imgur.com/ABsI4b2.jpg",
         ],
         "doubt": [
+            "http://i.imgur.com/FS58osf.jpg",
             "http://i.imgur.com/EUW0kIY.jpg",
         ],
         "stressed": [
