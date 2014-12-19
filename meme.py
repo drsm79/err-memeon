@@ -7,6 +7,9 @@ from lxml import html
 class MemeOn(BotPlugin):
 
     memes = {
+        "doubt": [
+            "http://i.imgur.com/FS58osf.jpg",
+        ],
         "devops": [
             "http://1.bp.blogspot.com/_eGXMMWsE_7Y/SwJ1icDrkzI/AAAAAAAAATU/MO_NccQyQS0/s1600/samiad1.gif"
         ],
@@ -245,3 +248,7 @@ class MemeOn(BotPlugin):
     @botcmd
     def manatee(self, mess, args):
         return "http://calmingmanatee.com/img/manatee%s.jpg" % randint(1,30)
+
+    @botcmd
+    def sparkle(self, mess, args):
+        return "http://i.imgur.com/FS58osf.jpg"
