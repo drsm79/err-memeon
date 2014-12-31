@@ -253,4 +253,4 @@ class MemeOn(BotPlugin):
 
     @botcmd
     def sparkle(self, mess, args):
-        return "http://i.imgur.com/FS58osf.jpg"
+        return choice(self.memes['doubt'])
