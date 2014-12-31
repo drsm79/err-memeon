@@ -146,6 +146,10 @@ class MemeOn(BotPlugin):
         "doubt": [
             "http://i.imgur.com/FS58osf.jpg",
             "http://i.imgur.com/EUW0kIY.jpg",
+            "http://i.imgur.com/Tr0VFSw.jpg",
+            "http://i.imgur.com/WbNdLBN.jpg",
+            "http://i.imgur.com/AGsySrN.jpg",
+            "http://i.imgur.com/0d7eDw7.jpg",
         ],
         "stressed": [
             "http://calmingmanatee.com/img/manatee13.jpg",
