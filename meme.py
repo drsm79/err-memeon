@@ -10,6 +10,9 @@ class MemeOn(BotPlugin):
         "devops": [
             "http://1.bp.blogspot.com/_eGXMMWsE_7Y/SwJ1icDrkzI/AAAAAAAAATU/MO_NccQyQS0/s1600/samiad1.gif"
         ],
+        "handoff": [
+            "http://i.imgur.com/Ed17yBJ.gif",
+        ],
         "local": [
             "http://31.media.tumblr.com/55e743a6c14ecf989ac7a8f744e58582/tumblr_n3kfmpZxcG1srkiv2o1_400.gif",
         ],
@@ -254,3 +257,7 @@ class MemeOn(BotPlugin):
     @botcmd
     def sparkle(self, mess, args):
         return choice(self.memes['doubt'])
+        
+    @botcmd
+    def sparkle(self, mess, args):
+        return choice(self.memes['handoff'])
