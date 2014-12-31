@@ -259,5 +259,5 @@ class MemeOn(BotPlugin):
         return choice(self.memes['doubt'])
         
     @botcmd
-    def sparkle(self, mess, args):
+    def handoff(self, mess, args):
         return choice(self.memes['handoff'])
