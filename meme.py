@@ -130,9 +130,11 @@ class MemeOn(BotPlugin):
             "http://www.eabf.org.uk/upload/news/dame-thora-hird.jpg",
             "http://bonfirehealth.com/wp-content/uploads/2011/09/herd.1.gif",
             "http://upload.wikimedia.org/wikipedia/commons/5/5a/Wilderbeest.jpg",
-            "http://upload.wikimedia.org/wikipedia/commons/a/a9/Herd_Of_Goats.jpg"
+            "http://upload.wikimedia.org/wikipedia/commons/a/a9/Herd_Of_Goats.jpg",
+            "https://pbs.twimg.com/media/B6k26ggCMAAtmcr.jpg",
         ],
         "love": [
+            "http://rainbowbunchie.com/images/RainbowBunchie.gif",
             "https://www.youtube.com/watch?v=xhrBDcQq2DM",
             "http://www.grammy.com/files/styles/news_photos/public/news/haddaway3.jpg",
             "http://www.becomethesinger.com/wp-content/uploads/2012/11/Haddaway-what-is-love-lyrics-300x197.jpg",
