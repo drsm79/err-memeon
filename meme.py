@@ -263,3 +263,7 @@ class MemeOn(BotPlugin):
     @botcmd
     def handoff(self, mess, args):
         return choice(self.memes['handoff'])
+
+    @botcmd
+    def safety(self, mess, args):
+        return "http://safety-cup.com/images/safety-cup.gif"
