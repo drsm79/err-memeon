@@ -268,3 +268,7 @@ class MemeOn(BotPlugin):
     @botcmd
     def safety(self, mess, args):
         return "http://safety-cup.com/images/safety-cup.gif"
+    
+    @botcmd
+    def lol(self, mess, args):
+        return "http://i.imgur.com/c1vwQMs.gif"
