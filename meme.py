@@ -272,3 +272,7 @@ class MemeOn(BotPlugin):
     @botcmd
     def lol(self, mess, args):
         return "http://i.imgur.com/c1vwQMs.gif"
+        
+    @botcmd
+    def ribbon(self, mess, args):
+        return "http://i.imgur.com/RgriuiX.jpg"
